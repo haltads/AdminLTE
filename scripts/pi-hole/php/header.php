@@ -266,7 +266,7 @@ if($auth) {
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                             <img src="img/logo.svg" class="user-image" alt="Pi-hole logo" style="border-radius: 0" width="25" height="25">
-                            <span class="hidden-xs">Pi-hole</span>
+                            <span class="hidden-xs">Halt-Ads</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
@@ -274,7 +274,7 @@ if($auth) {
                                 <img src="img/logo.svg" alt="Pi-hole Logo" style="border: 0" width="90" height="90">
                                 <p>
                                     Mitul Poshia Open Source Ad Blocker
-                                    <small>Designed Mitul Poshia</small>
+                                    <small>Designed Halt Ads</small>
                                 </p>
                             </li>
                             <!-- Menu Body -->
