@@ -238,9 +238,9 @@ if($auth) {
         <!-- Logo -->
         <a href="index.php" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini">P<strong>h</strong></span>
+            <span class="logo-mini">H<strong>A</strong></span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg">Pi-<strong>hole</strong></span>
+            <span class="logo-lg">Halt-<strong>Ads</strong></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
@@ -273,8 +273,8 @@ if($auth) {
                             <li class="user-header">
                                 <img src="img/logo.svg" alt="Pi-hole Logo" style="border: 0" width="90" height="90">
                                 <p>
-                                    Open Source Ad Blocker
-                                    <small>Designed For Raspberry Pi</small>
+                                   HaltAds
+                                    <small>  HaltAds</small>
                                 </p>
                             </li>
                             <!-- Menu Body -->
