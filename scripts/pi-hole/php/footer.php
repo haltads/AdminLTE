@@ -50,8 +50,8 @@
     $webVersionStr = $web_current . (isset($web_commit) ? " (" . $web_branch . ", " . $web_commit . ")" : "");
     $ftlVersionStr = $FTL_current . (isset($FTL_commit) ? " (" . $FTL_branch . ", " . $FTL_commit . ")" : "");
 
-    $githubBaseUrl = "https://github.com/pi-hole";
-    $coreUrl = $githubBaseUrl . "/pi-hole";
+    $githubBaseUrl = "https://github.com/haltads";
+    $coreUrl = $githubBaseUrl . "/Halt-Ads";
     $webUrl = $githubBaseUrl . "/AdminLTE";
     $ftlUrl = $githubBaseUrl . "/FTL";
 

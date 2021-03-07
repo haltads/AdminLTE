@@ -171,7 +171,7 @@
     <meta http-equiv="cache-control" content="max-age=60,private">
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pi-hole<?php echo $hostname ? " - " . $hostname : "" ?></title>
+    <title>Halt-Ads<?php echo $hostname ? " - " . $hostname : "" ?></title>
 
     <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -214,7 +214,7 @@
     <script src="scripts/vendor/Chart.min.js?v=<?=$cacheVer?>"></script>
     <script src="style/vendor/font-awesome/js/all.min.js?v=<?=$cacheVer?>"></script>
 </head>
-<body class="hold-transition sidebar-mini <?php if($boxedlayout){ ?>layout-boxed<?php } ?>">
+<body class="hold-transition sidebar-mini <?php if($widelayout){ ?>layout-wide<?php } ?>">
 <noscript>
     <!-- JS Warning -->
     <div>
@@ -273,8 +273,8 @@ if($auth) {
                             <li class="user-header">
                                 <img src="img/logo.svg" alt="Pi-hole Logo" style="border: 0" width="90" height="90">
                                 <p>
-                                   HaltAds
-                                    <small>  HaltAds</small>
+                                    Mitul Poshia Open Source Ad Blocker
+                                    <small>Designed Mitul Poshia</small>
                                 </p>
                             </li>
                             <!-- Menu Body -->
@@ -645,13 +645,13 @@ if($auth) {
                 <?php } ?>
                 <!-- Donate -->
                 <li>
-                    <a href="https://pi-hole.net/donate/" rel="noopener" target="_blank">
-                        <i class="fab fa-fw fa-paypal"></i> <span>Donate</span>
+                    <a href="https://HaltAds.com/" rel="noopener" target="_blank">
+                        <i class="fas fa-cloud"></i> <span>Halt-Ads</span>
                     </a>
                 </li>
                  <!-- Docs -->
                  <li>
-                    <a href="https://docs.pi-hole.net/" rel="noopener" target="_blank">
+                    <a href="https://HaltAds.com/" rel="noopener" target="_blank">
                         <i class="fa fa-fw fa-question-circle"></i> <span>Documentation</span>
                     </a>
                 </li>
